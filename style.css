@@ -1,4 +1,19 @@
-div{
-    background-color: blue;
-    color: pink;
+#mainDiv{
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%; 
+}
+#mailIcon{
+    float: right;
+}
+#logoIcon{
+    float:left;
+}
+#companyNameAndTagLine {
+    padding-left: 10px;
+    float: left;
+}
+p{
+    font-family: 'Sansita Swashed', sans-serif;
+    margin: 5px;
 }
