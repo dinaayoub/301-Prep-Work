@@ -1,19 +1,101 @@
-#mainDiv{
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%; 
+main, header, footer{
+    margin: 0 auto;
+    width: 900px; 
+    padding: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
-#mailIcon{
-    float: right;
+.mainDiv{
+    margin: 0 auto;
+    width: 900px; 
+    padding: 5px;
+}
+#headerDiv{
+    padding-top: 25px;
+}
+hr{
+    background-image: url('/assets/hr.png');
+    height: 15px;
+    border: none;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+h1{
+    font: 32pt Calibri, sans-serif;
+}
+h2{
+    font: 24pt Calibri, sans-serif;
 }
 #logoIcon{
-    float:left;
-}
-#companyNameAndTagLine {
-    padding-left: 10px;
     float: left;
 }
-p{
+#companyInfoDiv {
+    padding: 10px;
+    float: left;
+}
+#companyName {
     font-family: 'Sansita Swashed', sans-serif;
-    margin: 5px;
+    font-size: 16pt;
+    font-weight: bold;
+    padding-left: 5px;
+}
+#companyTagLine {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 8pt;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#socialIcons{
+    float: right;
+}
+#rssIcon{
+    margin-left:5px
+}
+p{
+    padding: 25px;
+    color: rgb(116, 116, 116);
+}
+#vanImage{
+    float: left;
+}
+#vanText{
+    float: left;
+
+}
+#shareRecipeButton{
+    float: right;
+    background-color: rgb(219, 98, 54);
+    color: white;
+    border: none;
+    font-family: 'Droid Sans', sans-serif;
+    width: 150px;
+    height: 40px;
+}
+#printButton{
+    float: right;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 8pt;
+    color: rgb(170, 169, 169);
+}
+#articleTitle{
+    float: left;
+    font-size: 32pt;
+    font-family: 'Drois Sans', sans-serif;
+    font-weight: bold;
+}
+#articleDate{
+    clear: left;
+    float: left;
+    color: rgb(170, 169, 169);
+    font-size: 8pt;
+    font-family: 'Drois Sans', sans-serif; 
+}
+#mainImage{
+    padding-top: 20px;
+}
+#notesBackgroundImage{
+    float: left;
+}
+ul{
+    float: left;
+    position: relative;
 }
