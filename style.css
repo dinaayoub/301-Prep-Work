@@ -1,19 +1,136 @@
-#mainDiv{
-    margin-left: 25%;
-    margin-right: 25%;
-    width: 50%; 
+main, header, footer{
+    margin: 0 auto;
+    width: 900px; 
+    padding: 25px;
 }
-#mailIcon{
-    float: right;
+.mainDiv{
+    margin: 0 auto;
+    width: 900px; 
+    padding: 5px;
+}
+#headerDiv{
+    padding-top: 25px;
+}
+hr{
+    background-image: url('/assets/hr.png');
+    height: 15px;
+    border: none;
+    background-repeat: no-repeat;
+    width: 100%;
 }
 #logoIcon{
-    float:left;
-}
-#companyNameAndTagLine {
-    padding-left: 10px;
     float: left;
 }
 p{
-    font-family: 'Sansita Swashed', sans-serif;
-    margin: 5px;
+    margin-top: 5px;
+    color: rgb(116, 116, 116);
+}
+#instructions{
+    font-family: 'Noto Serif', serif;
+    font-size: 12pt;
+    line-height: 150%;
+}
+#companyInfoDiv {
+    padding-left: 5px;
+    padding-bottom:20px;
+    float: left;
+}
+#companyName {
+    font-family: 'Yellowtail', sans-serif;
+    font-size: 24pt;
+    font-weight: bold;
+    padding-left: 5px;
+    margin-top: 0;
+    color: black;
+}
+#companyTagLine {
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 8pt;
+    padding-left: 5px;
+    padding-top: 5px;
+}
+#socialIcons{
+    margin-top:10px;
+    float: right;
+}
+#rssIcon{
+    margin-left:5px
+}
+#vanImage{
+    float: left;
+}
+#vanText{
+    float: left;
+    width: 60%;
+    padding-left: 25px;
+}
+#shareRecipeButton{
+    float: right;
+    background-color: rgb(219, 98, 54);
+    color: white;
+    border: none;
+    font-family: 'Droid Sans', sans-serif;
+    width: 150px;
+    height: 40px;
+}
+#printButton{
+    float: right;
+    font-family: 'Droid Sans', sans-serif;
+    font-size: 8pt;
+    color: rgb(170, 169, 169);
+}
+#articleTitle{
+    float: left;
+    font-size: 32pt;
+    font-family: 'Francois One', sans-serif;
+}
+#articleDate{
+    clear: left;
+    float: left;
+    color: rgb(170, 169, 169);
+    font-size: 8pt;
+    font-family: 'Droid Sans', sans-serif; 
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+#mainImage{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#notesBackgroundImage{
+    float: left;
+    position: absolute;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.ingredientsList{
+    margin-top: 50px;
+    margin-left: 50px;
+    float: left;
+    position: relative;
+    left: 30px;
+    font-family: 'Patrick Hand', sans-serif;
+    font-size: 16pt;
+    line-height: 150%;
+    color: rgb(90, 90, 90);
+}
+#secondIngredientsList{
+    padding-left: 100px;
+}
+#aboutVanessa {
+    clear: left;
+    font-family: 'Noto Serif', serif;
+}
+#underNotesEmptyDiv{
+    height: 350px;
+}
+#emptySpace{
+    width: 100px;
+}
+.checkbox{
+    margin-right: 10px;
+}
+#vanName{
+    font-weight: bold;
+    padding-bottom: 5px;
 }
